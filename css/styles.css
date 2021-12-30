@@ -1,0 +1,29 @@
+*
+{
+    padding:0;
+    margin:0;
+    box-sizing: border-box;
+   
+}
+
+body{
+    font-family: 'Raleway';
+}
+
+.menu{
+    background-color: black;
+    text-align: center;
+    color: whitesmoke;
+}
+
+.menu ul{
+    display: inline-flex;
+    list-style: none;
+}
+
+.menu ul li {
+    width: 160px;
+    margin: 16px;
+    padding: 16px;
+}
+

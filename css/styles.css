@@ -3,27 +3,40 @@
     padding:0;
     margin:0;
     box-sizing: border-box;
-   
 }
 
 body{
-    font-family: 'Raleway';
+    font-family: 'Raleway' !important;
+    font-size: 16px;
+    color: white;
 }
 
-.menu{
+.navbar-inverse{
     background-color: black;
-    text-align: center;
-    color: whitesmoke;
+    border-radius: 0px;
+    margin-bottom: 0px;
 }
 
-.menu ul{
-    display: inline-flex;
-    list-style: none;
+.navbar-right{
+    margin-right: 0px;
 }
 
-.menu ul li {
-    width: 160px;
-    margin: 16px;
-    padding: 16px;
+.navbar-brand{
+    padding-left: 50px;
 }
+
+.jumbotron {
+    background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url("../assets/Banner-bg.jpg");
+    height: 70vh;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: relative;
+    padding: 50px;
+}
+
+.jumbotron p{
+    width: 50%;
+    font-size: 18px;
+}    
 

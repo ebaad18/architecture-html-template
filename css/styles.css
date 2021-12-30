@@ -25,14 +25,19 @@ body{
     padding-left: 50px;
 }
 
+.btn-warning{
+    background-color: #000000;
+}
+
 .jumbotron {
     background-image: url("../assets/wave.svg");
-    height: 70vh;
+    background-color: white;
+    border-radius: 0px;
+    height: 85vh;
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
     position: relative;
-    padding: 50px;
 }
 
 .jumbotron p{

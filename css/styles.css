@@ -163,3 +163,31 @@ body{
     }
 
 }
+
+h4{
+color: #000000;
+text-align: center;
+}
+
+.container{
+    padding-left: 8rem;
+    padding-right: 8rem;
+    padding-top: 8rem;
+}
+
+.service-description{
+    color:rgb(133, 133, 133);
+    text-align: left;
+    white-space: normal;
+    padding-top: 1rem;
+}
+
+.Section-2-heading{
+    color: #000000;
+    text-align: center;
+    
+}
+
+.services{
+    padding-top: 4rem;
+}

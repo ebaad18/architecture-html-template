@@ -170,9 +170,8 @@ text-align: center;
 }
 
 .container{
-    padding-left: 8rem;
-    padding-right: 8rem;
-    padding-top: 8rem;
+    padding-left: 4rem;
+    padding-right: 4rem;
 }
 
 .service-description{
@@ -189,5 +188,5 @@ text-align: center;
 }
 
 .services{
-    padding-top: 4rem;
+    padding-top: 2rem;
 }

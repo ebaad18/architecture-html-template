@@ -192,7 +192,11 @@ text-align: center;
 }
 
 .footer{
+    background-image: url("../assets/footer-wave.svg");
     background-color: white;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
     color: rgba(0,0,0,.9);
     padding: 2rem 8rem;
 }
@@ -200,19 +204,55 @@ text-align: center;
 .footer-column{
     align-items: left;
     font-size: 14px;
+    margin-top: 8%;
 }
 
 .footer-column ul{
     list-style-type: none;
 }
 
-.footer-column a{
+.footer-column a, .footer-column i{
     color: rgba(0,0,0,.9);
 }
 
+.footer-column p{
+    margin-bottom: 0rem;
+}
+
 .footer-column a:hover{
-    color: #f0b400;
+    color: white;
     text-decoration: none;
+}
+
+.footer-works{
+    width:110px;
+    padding: 0.3rem;
+}
+
+.footer-works:hover{
+    transform: scale(1.05);
+    opacity: 0.9;
+    transition-duration: 0.5s;
+    cursor: pointer;
+}
+
+.gmap_iframe{
+    border-radius: 20px;
+}
+
+.social{
+    padding: 1rem 0rem;
+    color: rgba(0,0,0,.9);
+}
+
+.social i{
+    padding: 0rem 0.8rem 0rem 0rem;
+    font-size: 18px;
+}
+
+.social i:hover{
+    color:white;
+    cursor: pointer;
 }
 
 .copyright{
@@ -224,3 +264,4 @@ text-align: center;
     margin-bottom: 0rem;
     padding: 0.5rem 0rem;
 }
+

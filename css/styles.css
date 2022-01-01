@@ -59,19 +59,6 @@ body{
     border-color: transparent;
 }
 
-.featurette-heading{
-    padding-left: 15px;
-    align-items: center;
-    color: #000;
-    font-size: 50px;
-}
-
-.lead-featurette{
-    padding-left: 15px;
-    color: rgb(133, 133, 133);
-    font-size: 20px;
-}
-
 .jumbotron li{
     position: absolute;
     display: block;
@@ -161,7 +148,6 @@ body{
         opacity: 0;
         border-radius: 50%;
     }
-
 }
 
 h4{
@@ -169,24 +155,38 @@ color: #000000;
 text-align: center;
 }
 
-.container{
-    padding-left: 4rem;
-    padding-right: 4rem;
+.service-container{
+    padding: 0rem 4rem 2rem 4rem;
 }
 
 .service-description{
-    color:rgb(133, 133, 133);
-    text-align: left;
+    color:rgba(0,0,0,.9);
+    text-align: center;
     white-space: normal;
     padding-top: 1rem;
 }
 
-.Section-2-heading{
+.service-main-heading{
     color: #000000;
-    text-align: center;
-    
+    text-align: center;    
 }
 
 .services{
     padding-top: 2rem;
+}
+
+.service-tile{
+    padding: 0rem 2rem;
+    text-align: center;
+}
+
+.service-icon{
+    font-size: 40px;
+    color: #f0b400;
+    padding-bottom: 2rem;
+}
+
+.cta{
+    background-color: #f0b400;
+    height: 100px;
 }

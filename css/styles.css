@@ -190,3 +190,37 @@ text-align: center;
     background-color: #f0b400;
     height: 100px;
 }
+
+.footer{
+    background-color: white;
+    color: rgba(0,0,0,.9);
+    padding: 2rem 8rem;
+}
+
+.footer-column{
+    align-items: left;
+    font-size: 14px;
+}
+
+.footer-column ul{
+    list-style-type: none;
+}
+
+.footer-column a{
+    color: rgba(0,0,0,.9);
+}
+
+.footer-column a:hover{
+    color: #f0b400;
+    text-decoration: none;
+}
+
+.copyright{
+    background-color: #f0b400;
+    font-size: 12px;
+}
+
+.copyright p{
+    margin-bottom: 0rem;
+    padding: 0.5rem 0rem;
+}

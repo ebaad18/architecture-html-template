@@ -54,9 +54,28 @@ body{
 }
 
 .btn-secondary:hover{
-    color: rgba(0,0,0,.9);
-    background-color:transparent;
-    border-color: transparent;
+    color: rgba(0,0,0,.5);
+    background-color: #f0b400;
+    border-color: #f0b400
+}
+
+
+.show>.btn-secondary.dropdown-toggle {
+    color: rgba(0,0,0,.5);
+    background-color: #f0b400;
+    border-color: #f0b400
+}
+
+.show>.btn-secondary.dropdown-toggle{
+    box-shadow: none;
+}
+
+.btn-secondary.focus, .btn-secondary:focus {
+    box-shadow: none;
+}
+
+.show>.btn-secondary.dropdown-toggle:focus {
+    box-shadow: none;
 }
 
 .animated-boxes li{
@@ -263,5 +282,13 @@ text-align: center;
 .copyright p{
     margin-bottom: 0rem;
     padding: 0.5rem 0rem;
+}
+
+.display-4{
+    padding-top: 15px;
+}
+
+.lead{
+    padding-top: 15px;
 }
 

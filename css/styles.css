@@ -37,6 +37,11 @@ body{
     color: #f0b400;
 }
 
+#dropdownMenu2{
+    align-items: center;
+  }
+
+ 
 .btn-dark{
     background-color: #000000;
 }
@@ -304,3 +309,25 @@ text-align: center;
     padding-top: 15px;
 }
 
+.contact-main-heading{
+    color: #000000;
+    text-align: center; 
+    padding: 4rem 0rem 0rem 0rem;   
+}
+
+label {
+    display: inline-block;
+    margin-bottom: 0.5rem;
+    color: #000000;
+}
+
+form{
+    margin: 4rem;
+}
+
+textarea {
+    overflow: auto;
+    resize: vertical;
+    box-sizing: border-box;
+    width: 100%;
+}

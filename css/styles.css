@@ -222,14 +222,6 @@ text-align: center;
     padding-bottom: 2rem;
 }
 
-.fade-in{
-    opacity: 0;
-    transition: opacity 250ms ease-in;
-}
-
-.fade-in.appear{
-    opacity: 1;
-}
 .cta{
     background-color: #f0b400;
     height: 100px;

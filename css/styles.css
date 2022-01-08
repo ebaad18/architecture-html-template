@@ -331,3 +331,24 @@ textarea {
     box-sizing: border-box;
     width: 100%;
 }
+
+.card-text{
+    color:#000000;
+}
+
+.heading-portfolio{
+    color: #000000;
+    text-align: center;
+    padding-top: 4rem;
+}
+
+.card-title{
+    color: #f0b400;
+    text-decoration: none;
+
+}
+
+a:hover{
+    text-decoration: none;
+}
+

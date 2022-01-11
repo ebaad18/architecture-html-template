@@ -227,6 +227,10 @@ text-align: center;
     height: 100px;
 }
 
+.portfolio{
+    padding-top: 2rem;
+}
+
 .footer{
     background-image: url("../assets/footer-wave.svg");
     background-color: white;
@@ -322,7 +326,7 @@ label {
 }
 
 form{
-    margin: 4rem;
+    margin: 2rem;
 }
 
 textarea {
@@ -352,3 +356,6 @@ a:hover{
     text-decoration: none;
 }
 
+.proj:hover{
+box-shadow: 5px 5px 3px 1px #f0b400;
+}

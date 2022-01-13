@@ -357,5 +357,28 @@ a:hover{
 }
 
 .proj:hover{
-box-shadow: 1px 1px 5px #f0b400;
+box-shadow: 1px 1px 3px 2px #f0b400;
 }
+
+.contact{
+    padding: 4rem 0rem 0rem 0rem;
+}
+
+.contact-col-2-heading{
+    color: #000000;
+    text-align: center;
+    font-weight: bold;
+}
+
+.contact-description{
+    color: #000000;
+    text-align: center;
+}
+
+.map{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 20px;
+}
+

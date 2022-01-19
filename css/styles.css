@@ -462,5 +462,15 @@ box-shadow: 1px 1px 3px 2px #f0b400;
     box-shadow: 0 0 0 0.2rem #f0b40040;
 }
 
+.header-social i{
+    padding: 0rem 0.8rem 0rem 0rem;
+    font-size: 18px;
+}
+
+.header-social i:hover{
+    color:#f0b400;
+    cursor: pointer;
+}
+
 
 

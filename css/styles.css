@@ -457,5 +457,10 @@ box-shadow: 1px 1px 3px 2px #f0b400;
     float: right;
 }
 
+.form-control:focus{
+    border-color: #f0b400;
+    box-shadow: 0 0 0 0.2rem #f0b40040;
+}
+
 
 

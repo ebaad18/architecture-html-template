@@ -1,9 +1,4 @@
-
-
-
-    
-
-    $(document).ready(function(){
+$(document).ready(function(){
       //Add a minus icon to the collapse element that is open by default
         $('.collapse.show').each(function(){
         $(this).parent().find(".fas").removeClass("fa-plus").addClass("fa-minus");

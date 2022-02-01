@@ -483,5 +483,10 @@ box-shadow: 1px 1px 3px 2px #f0b400;
 
 .wgl-portfolio{
   padding: 0px;  
-  border: 2px solid black;
+  border: 2px solid #f0b400;
 }
+
+.dropdown:hover .dropdown-menu {
+    display: block;
+    margin-top: 0; 
+ }
